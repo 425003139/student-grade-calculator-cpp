@@ -23,6 +23,8 @@ int main()
     cout << "\n Prelim Grade: " << (prelimGrade) << endl;
     cout << "\n Midterm Grade: " << (midtermGrade) << endl;
     cout << "\n Finals Grade: " << (finalsGrade) << endl;
+    int averageGrade = (prelimGrade + midtermGrade + finalsGrade)/3.0;
+    cout << "\n Average: " << (averageGrade) << endl;
 
     cin.get();
     return (0);
